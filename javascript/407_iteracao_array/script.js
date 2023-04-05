@@ -1,4 +1,4 @@
-/* // Selecione cada curso e retorne uma array com objetos contendo o título, descricao,aulas e horas de cada curso
+// Selecione cada curso e retorne uma array com objetos contendo o título, descricao,aulas e horas de cada curso
 let aulas = document.querySelectorAll(".curso")
 let cursos = Array.from(aulas)
 let grade = cursos.map((grade) => {
@@ -26,7 +26,7 @@ const instrumentos = ['Guitarra', 'Baixo', 'Bateria', 'Teclado']
 let baixo = instrumentos.some((item) => {
   return item.toLocaleLowerCase() === "baixo"
 })
-console.log(baixo); */
+console.log(baixo);
 
 
 // Retorne o valor total das compras
